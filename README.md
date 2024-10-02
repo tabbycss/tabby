@@ -103,6 +103,6 @@ Check out the Customization Demo on [Codepen.](https://codepen.io/GreenestGoat/p
 
 ## Copyright and license
 
-Licensed under the MIT License, Copyright © 2024-present open-loadr.
+Licensed under the MIT License, Copyright © 2024-present tabbycss.
 
-See [LICENSE](https://github.com/open-loadr/loadr/blob/main/LICENSE) for more information.
+See [LICENSE](https://github.com/tabbycss/tabby/blob/main/LICENSE) for more information.

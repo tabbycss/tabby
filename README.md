@@ -13,24 +13,24 @@
 
 ### Install manually
 
-[Download Tabby](https://raw.githubusercontent.com/tabbycss/tabby/refs/heads/main/css/tabby.min.css) and link `/css/pico.min.css` in the `<head>` of your website.
+[Download Tabby](https://raw.githubusercontent.com/tabbycss/tabby/refs/heads/main/css/tabby.min.css) and link `css/tabby.min.css` in the `<head>` of your website.
 
 ```html
-<link rel="stylesheet" href="css/pico.min.css" />
+<link rel="stylesheet" href="css/tabby.min.css" />
 ```
 
 ### Usage from CDN
 
-Alternatively, you can use [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@picocss/pico) to link pico.css.
+Alternatively, you can use [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@tabbycss/tabby) to link tabby.css
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabbycss/tabby/css/tabby.min.css" />
 ```
 
 ### Install with NPM
 
 ```shell
-npm install @picocss/pico
+npm install @tabbycss/tabby
 ```
 
 ## Usage

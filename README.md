@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Logo Banner" src="https://raw.githubusercontent.com/tabbycss/tabby/main/banner/banner.svg"/>
+<img alt="Logo Banner" src="https://raw.githubusercontent.com/tabbycss/tabby/main/banner/tabby.gif"/>
 <br/>
 
 [![](https://data.jsdelivr.com/v1/package/npm/@tabbycss/tabby/badge)](https://www.jsdelivr.com/package/npm/@tabbycss/tabby)

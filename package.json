@@ -1,6 +1,6 @@
 {
   "name": "@tabbycss/tabby",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tabby is an accessible tab library built entirely with CSS.",
   "author": "tabbycss",
   "main": "css/tabby.min.css",

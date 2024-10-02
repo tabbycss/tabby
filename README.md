@@ -2,10 +2,6 @@
 <img alt="Logo Banner" src="https://raw.githubusercontent.com/tabbycss/tabby/main/banner/banner.svg"/>
 <br/>
 
-[![Published on npm](https://img.shields.io/npm/v/tabbycss)](https://www.npmjs.com/package/tabbycss)
-[![](https://data.jsdelivr.com/v1/package/npm/open-loadr/badge)](https://www.jsdelivr.com/package/npm/open-loadr)
-<!--[![npm Downloads](https://img.shields.io/npm/dm/open-emojify?label=npm%20downloads)](https://npm-stat.com/charts.html?package=open-emojify)-->
-
 <div align="left">Tabby is an accessible tab library built entirely with CSS.</div>
 <div align="left">
 

@@ -66,7 +66,7 @@ To add functionality to tabby we can add this snippet of javascript.
 </script>
 ```
 
-Check out the Demo on [Codepen.](https://codepen.io/GreenestGoat/pen/yLdRzPN)
+Check out the Demo on [Codepen.](https://codepen.io/GreenestGoat/pen/dyxGLEQ?editors=1000)
 
 ### Extra step
 Lets add some styling to the ```<img>``` element.

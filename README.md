@@ -47,7 +47,7 @@ npm install @tabbycss/tabby
 </div>
 ```
 
-To add functionality to tabby we can add this simple js.
+To add functionality to tabby we can add this snippet of js.
 
 ```index.html```
 

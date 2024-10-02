@@ -16,7 +16,7 @@
 You can use [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@tabbycss/tabby) to link Tabby
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabbycss/tabby/css/tabby.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabbycss/tabby@latest/css/tabby.min.css" />
 
 <script src="https://cdn.jsdelivr.net/npm/@tabbycss/tabby/js/tabby.min.js"></script>
 ```

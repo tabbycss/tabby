@@ -47,8 +47,8 @@ npm install @tabbycss/tabby
         Shows
         <div class="tab-border"></div>
     </a>
-    <a role="tab" class="tab">
-        Music
+    <a role="tab" class="tab" disabled>
+        Disabled
         <div class="tab-border"></div>
     </a>
 </div>

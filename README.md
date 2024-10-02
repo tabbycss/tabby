@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Logo Banner" src="https://raw.githubusercontent.com/open-loadr/loadr/main/banner/banner.svg"/>
+<img alt="Logo Banner" src="https://raw.githubusercontent.com/tabbycss/tabby/main/banner/banner.svg"/>
 <br/>
 
 [![Published on npm](https://img.shields.io/npm/v/open-loadr)](https://www.npmjs.com/package/open-loadr)

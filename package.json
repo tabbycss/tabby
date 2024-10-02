@@ -3,10 +3,8 @@
   "version": "0.0.4",
   "description": "Tabby is an accessible tab library built with keyboard navigation support.",
   "author": "tabbycss",
-  "files": [
-    "css/tabby.min.css",
-    "js/tabby.min.js"
-  ],
+  "main": "css/tabby.min.css",
+  "unpkg": "css/tabby.min.css",
   "homepage": "https://github.com/tabbycss/tabby",
   "license": "MIT",
   "repository": {

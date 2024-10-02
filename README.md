@@ -68,39 +68,6 @@ To add functionality to tabby we can add this snippet of javascript.
 
 Check out the demo on [codepen.](https://codepen.io/GreenestGoat/pen/dyxGLEQ?editors=1000)
 
-### Extra step
-Lets add some styling to the ```<img>``` element.
-
-```style.css```
-
-```css
-img {
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-  border-radius: 15px;
-  overflow: hidden;
-}
-```
-
-## Customization
-
-Loadr comes with variables that can be easily customized.
-
-```index.html```
-
-```html
-<script>
-  new Loadr({
-    async: false,
-    cache: true,
-    delay: '750'
-  });
-</script>
-```
-
-Check out the Customization Demo on [Codepen.](https://codepen.io/GreenestGoat/pen/BagqdNR)
-
 ## Copyright and license
 
 Licensed under the MIT License, Copyright © 2024-present tabbycss.

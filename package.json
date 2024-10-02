@@ -5,14 +5,14 @@
   "author": "tabbycss",
   "main": "css/tabby.min.css",
   "unpkg": "css/tabby.min.css",
-  "homepage": "https://github.com/thebucketcompany/bucketui/",
+  "homepage": "https://github.com/tabbycss/tabby",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thebucketcompany/bucketui.git"
+    "url": "git+https://github.com/tabbycss/tabby.git"
   },
   "bugs": {
-    "url": "https://github.com/thebucketcompany/bucketui/issues"
+    "url": "https://github.com/tabbycss/tabby/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

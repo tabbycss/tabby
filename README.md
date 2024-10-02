@@ -39,9 +39,18 @@ npm install @tabbycss/tabby
 
 ```html
 <div role="tablist" class="tabby">
-  <a role="tab" class="tab" selected>Movies</a>
-  <a role="tab" class="tab">Shows</a>
-  <a role="tab" class="tab">Music</a>
+    <a role="tab" class="tab" selected>
+        Movies
+        <div class="tab-border"></div>
+    </a>
+    <a role="tab" class="tab">
+        Shows
+        <div class="tab-border"></div>
+    </a>
+    <a role="tab" class="tab">
+        Music
+        <div class="tab-border"></div>
+    </a>
 </div>
 ```
 

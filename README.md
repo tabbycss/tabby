@@ -2,30 +2,35 @@
 <img alt="Logo Banner" src="https://raw.githubusercontent.com/tabbycss/tabby/main/banner/banner.svg"/>
 <br/>
 
-[![Published on npm](https://img.shields.io/npm/v/open-loadr)](https://www.npmjs.com/package/open-loadr)
+[![Published on npm](https://img.shields.io/npm/v/tabbycss)](https://www.npmjs.com/package/tabbycss)
 [![](https://data.jsdelivr.com/v1/package/npm/open-loadr/badge)](https://www.jsdelivr.com/package/npm/open-loadr)
 <!--[![npm Downloads](https://img.shields.io/npm/dm/open-emojify?label=npm%20downloads)](https://npm-stat.com/charts.html?package=open-emojify)-->
 
-<div align="left">Loadr is an efficient solution for seamlessly loading large images in HTML, with a minified size of under 1 KB.</div>
+<div align="left">Tabby is an accessible tab library built entirely with CSS.</div>
 <div align="left">
-
-[Demo](https://open-loadr.github.io/loadr/)  
 
 ## Installation
 
-### CDN
+### Install manually
 
-Import Loadr using CDN.
-
-```index.html```
+[Download Tabby](https://raw.githubusercontent.com/tabbycss/tabby/refs/heads/main/css/tabby.min.css) and link `/css/pico.min.css` in the `<head>` of your website.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/open-loadr/loadr.min.js"></script>
+<link rel="stylesheet" href="css/pico.min.css" />
 ```
 
-#### 🚧 Specific Version
+### Usage from CDN
+
+Alternatively, you can use [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@picocss/pico) to link pico.css.
+
 ```html
-<script src="https://cdn.jsdelivr.net/npm/open-loadr@latest/loadr.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+```
+
+### Install with NPM
+
+```shell
+npm install @picocss/pico
 ```
 
 ## Usage

@@ -7,6 +7,8 @@
 <div align="left">Tabby is an accessible tab library built entirely with CSS.</div>
 <div align="left">
 
+[Demo](https://codepen.io/GreenestGoat/pen/dyxGLEQ)
+
 ## Quick start
 
 There are 3 ways to get started with tabby.css:
@@ -75,7 +77,45 @@ To add functionality to tabby we can add this snippet of javascript.
 </script>
 ```
 
-Check out the demo on [codepen.](https://codepen.io/GreenestGoat/pen/dyxGLEQ?editors=1000)
+Check out the demo on [codepen.](https://codepen.io/GreenestGoat/pen/dyxGLEQ)
+
+### Customization
+
+Tabby can be easily customized by altering its default variables in the ```:root``` of your CSS.
+
+```CSS```
+
+```CSS
+:root {
+  /* Tabby default variables */
+
+  --tabby-width: 100%;
+  --tabby-height: 48px;
+  --tabby-tab-width: var(--tabby-width);
+  --tabby-tab-height: var(--tabby-height);
+  --tabby-tab-background-color: transparent;
+  --tabby-tab-selected-background-color: #E8F0FE;
+  --tabby-tab-hover-background-color: #d6d6d64d;
+  --tabby-tab-focus-background-color: #d6d6d64d;
+  --tabby-tab-active-background-color: #d6d6d64d;
+  --tabby-tab-color: #202124;
+  --tabby-tab-selected-color: #185ABC;
+  --tabby-tab-font-family: inherit;
+  --tabby-tab-font-size: 14px;
+  --tabby-tab-font-weight: 500;
+  --tabby-tab-line-height: normal;
+  --tabby-tab-radius: 0px;
+  --tabby-tab-padding-left: 20px;
+  --tabby-tab-padding-right: 20px;
+  --tabby-tab-padding: 0px var(--tab-span-padding-left) 0px var(--tab-span-padding-right);
+  --tabby-tab-disabled-opacity: 0.4;
+  --tabby-tab-border-color: transparent;
+  --tabby-tab-selected-border-color: #185ABC;
+  --tabby-tab-border-radius: 0px;
+  --tabby-tab-border-width: 100%;
+  --tabby-tab-border-height: 2.6px;
+}
+```
 
 ## Copyright and license
 

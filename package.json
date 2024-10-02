@@ -1,6 +1,6 @@
 {
   "name": "@tabbycss/tabby",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Tabby is an accessible tab library built with keyboard navigation support.",
   "author": "tabbycss",
   "main": "css/tabby.min.css",

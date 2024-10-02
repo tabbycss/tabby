@@ -9,7 +9,9 @@
 <div align="left">Tabby is an accessible tab library built entirely with CSS.</div>
 <div align="left">
 
-## Installation
+## Quick start
+
+There are 3 ways to get started with tabby.css:
 
 ### Install manually
 
@@ -33,26 +35,36 @@ Alternatively, you can use [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@
 npm install @tabbycss/tabby
 ```
 
-## Usage
-Add the ```hr-src``` to the HTML ```<img>``` element, This will be your high-res image. In the ```src``` attribute is the low-res version of your image. Loadr will load the high-res image in the background then update the ```src``` with its URL, Replacing the low-res image.
+### Usage in HTML
 
 ```index.html```
 
-<!-- ```html
-<img hr-src="/images/high_res.png" src="/images/low_res.png">
-``` -->
-
 ```html
-<img hr-src="https://open-loadr.github.io/loadr/images/the_starry_night/high_res.jpg" src="https://open-loadr.github.io/loadr/images/the_starry_night/low_res.png">
+<div role="tablist" class="tabby">
+  <a role="tab" class="tab" selected>Movies</a>
+  <a role="tab" class="tab">Shows</a>
+  <a role="tab" class="tab">Music</a>
+</div>
 ```
 
-Call Loadr in your Javascript. That's it 🎉.
+To add functionality to tabby we can add this simple js.
 
 ```index.html```
 
 ```html
 <script>
-  new Loadr();
+  const Tabby = document.querySelectorAll('.tabby');
+  
+  Tabby.forEach(container => {
+    const Tabs = container.querySelectorAll('.tab');
+
+    Tabs.forEach(item => {
+      item.addEventListener('click', () => {
+        Tabs.forEach(i => i.removeAttribute('selected'));
+        item.setAttribute('selected', '');
+      });
+    });
+  });
 </script>
 ```
 

@@ -1,0 +1,23 @@
+{
+  "name": "@tabbycss/tabby",
+  "version": "0.0.0",
+  "description": "Tabby is an accessible tab library built entirely with CSS.",
+  "author": "tabbycss",
+  "main": "css/tabby.min.css",
+  "unpkg": "css/tabby.min.css",
+  "homepage": "https://github.com/thebucketcompany/bucketui/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebucketcompany/bucketui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thebucketcompany/bucketui/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

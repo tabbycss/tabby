@@ -1,4 +1,5 @@
 :root {
+  --tabby-underline: #E7E0EB solid 1px;
   --tabby-width: 100%;
   --tabby-height: 48px;
   --tabby-tab-width: 100%;
@@ -38,7 +39,21 @@ div.tabby {
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
+  border-bottom: var(--tabby-underline);
 }
+
+div.tabby[tabby-align="left"] {
+  justify-content: flex-start;
+}
+
+div.tabby[tabby-align="center"] {
+  justify-content: center;
+}
+
+div.tabby[tabby-align="right"] {
+  justify-content: flex-end;
+}
+
 
 div.tabby button.tab {
   font-family: var(--tabby-tab-font-family);
@@ -56,6 +71,8 @@ div.tabby button.tab {
   -webkit-user-select: none;
   box-sizing: border-box;
   text-wrap: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
   border-radius: var(--tabby-tab-radius);
   margin: 0;
   padding: var(--tabby-tab-padding);
@@ -77,6 +94,18 @@ div.tabby button.tab:focus {
 
 div.tabby button.tab:active {
   background-color: var(--tabby-tab-active-background-color);
+}
+
+div.tabby[tabby-width="full"] button.tab {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+div.tabby[tabby-width="auto"] button.tab {
+  width: fit-content;
+  padding-left: var(--tabby-tab-padding-left);
+  padding-right: var(--tabby-tab-padding-right);
 }
 
 div.tabby button.tab div.tab-border {
